@@ -1,0 +1,143 @@
+/* Application */
+.App {
+  text-align: center;
+  background-color: pink;
+}
+
+/* Counter */
+#counter {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  opacity: 0.6;
+  background-color: gray;
+  color: aliceblue;
+  width: 15%;
+  margin-left: 80%;
+  height: 12%;
+  padding-top: 2%;
+}
+/* NavBar */
+#navigation {
+  border-bottom: 2px solid;
+  border-bottom-color: antiquewhite;
+  padding-bottom: 0px;
+  background-color: transparent;
+}
+/* Jumbotron */
+#jumbotron {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: transparent;
+  border-bottom: 2px solid;
+  border-bottom-color: antiquewhite;
+  background-image: url(https://th.bing.com/th/id/R.6bb8d85805d322c2b674d89ec65b2617?rik=G0aZSZ0bEMhx5w&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fF3wEoSC.jpg&ehk=dxzpc2Be6vR1kLeKi9wyJi84pG5mTo4pplpoRm3saZg%3d&risl=&pid=ImgRaw&r=0);
+}
+#JumbotronTitle {
+  font-weight: bolder;
+}
+/* SearchBar */
+#SearchBar {
+  width: 50%;
+  margin: auto;
+  margin-top: 7%;
+  margin-bottom: 8%;
+}
+/* TwitterMap */
+#FansMapTitle {
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-bottom: 2%;
+  border-bottom: 2px dotted;
+  border-top: 2px solid;
+}
+.Tweet {
+  text-align: left;
+  margin-bottom: 0;
+}
+.TweetText {
+  margin: 0%;
+}
+.TweetIcon {
+  margin-left: 90%;
+}
+/* DefaultContent */
+.DefaultContent {
+  height: auto;
+  width: "100%";
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+/* BookCard */
+#bookCardTitle {
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-bottom: 2px dotted;
+  border-top: 2px solid;
+}
+.BookCard {
+  margin-top: 1%;
+  margin-bottom: 3%;
+  -webkit-box-shadow: 0 8px 8px 8px black;
+  -moz-box-shadow: 0 8px 8px 8px black;
+  box-shadow: 0 8px 8px 0px black;
+  font-family: cursive;
+  color: black;
+}
+.BookCardTitle {
+  padding: 2px;
+  text-align: justify;
+  font-weight: bolder;
+}
+.BookCardAuthor {
+  padding: 2px;
+  text-align: justify;
+}
+.BookCardDescription {
+  border: 2px dotted white;
+  padding: 20px;
+  text-align: justify;
+}
+/* YoutubeCard */
+.YoutubeCardTitle {
+  padding: 2px;
+  text-align: justify;
+}
+.YoutubeCard {
+  margin-top: 1%;
+  margin-bottom: 3%;
+  -webkit-box-shadow: 0 8px 8px -4px black;
+  -moz-box-shadow: 0 8px 8px -4px black;
+  box-shadow: 0 8px 8px -4px black;
+  font-family: cursive;
+  color: black;
+  text-align: left;
+}
+.YoutubeCardBody {
+  background-color: transparent;
+}
+/* Status */
+.Status {
+  height: 300px;
+  width: 100%;
+  font-size: xx-large;
+  font-style: italic;
+  color: aliceblue;
+  position: relative;
+}
+.StatusText {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#loading {
+  height: 100px;
+  width: 200px;
+}
